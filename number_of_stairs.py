@@ -22,7 +22,7 @@ class Solution(object):
 
                 # looping through 0 to maximum number of 2s
                 for i in range(0, max_two+1):
-                    
+
                     # Choose function to work out all combinations possible
                     combos = maths.comb(n - i, i)
 
@@ -34,8 +34,3 @@ class Solution(object):
                 return "Number of Steps Should be Between 1 and 45"
         except TypeError:
             return 'Please Enter a Number'
-
-
-sl = Solution()
-
-print(sl.climbStairs('strin'))
